@@ -7,7 +7,6 @@ This simple application prototype shows how React and Redux can be used to build
 
 ## Features
 * Add and remove items 
-* Remove items
 * Edit the quantity of the items in real time
 * Calculate automatically the total including the shipping (if chosen)
 
