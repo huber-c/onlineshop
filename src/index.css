@@ -12,7 +12,10 @@
 }
 .card .card-image .card-title{
     color: #3F4C45;
-    font-weight: 400
+    font-weight: 500;
+}
+.card .card-image .card-title{
+    position: relative;
 }
 .cart{
     margin-top:40px;
@@ -38,7 +41,7 @@
 
 nav {
     color: #fff;
-    background-color: #395A2D !important;
+    background-color: #395A2D;
     width: 100%;
     height: 56px;
     line-height: 56px;

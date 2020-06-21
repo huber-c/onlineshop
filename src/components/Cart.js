@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { removeItem,addQuantity,subtractQuantity} from './actions/cartActions'
-import Recipe from './Recipe'
+import Checkout from './Checkout'
 class Cart extends Component{
 
     //to remove the item completely
@@ -32,7 +32,7 @@ class Cart extends Component{
                                     <div className="item-desc">
                                         <span className="title">{item.title}</span>
                                         <p>{item.desc}</p>
-                                        <p><b>Price: {item.price}$</b></p> 
+                                        <p><b>Price: {item.price}£</b></p> 
                                         <p>
                                             <b>Quantity: {item.quantity}</b> 
                                         </p>
@@ -60,7 +60,7 @@ class Cart extends Component{
                         {addedItems}
                     </ul>
                 </div> 
-                <Recipe />          
+                <Checkout />          
             </div>
        )
     }

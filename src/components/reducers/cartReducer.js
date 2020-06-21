@@ -9,12 +9,12 @@ import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '
 
 const initState = {
     items: [
-        {id:1,title:'Winter body', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:110,img:Item1},
-        {id:2,title:'Adidas', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:80,img: Item2},
-        {id:3,title:'Vans', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",price:120,img: Item3},
-        {id:4,title:'White', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:260,img:Item4},
-        {id:5,title:'Cropped-sho', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price:160,img: Item5},
-        {id:6,title:'Blues', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",price:90,img: Item6}
+        {id:1,title:'Arkham Horror', desc: "Take on the role of an investigator trying ot rid the world of eldritch beings known as the Ancient Ones", price:42,img:Item1},
+        {id:2,title:'Netrunner', desc: "Netrunner is an out-of-print collectible card game (CCG) designed by Richard Garfield, the creator of Magic.", price:28,img: Item2},
+        {id:3,title:'Pandemic', desc: "Pandemic is based on the premise that four diseases have broken out, each threatening to wipe out a region.",price:25,img: Item3},
+        {id:4,title:'Ashes', desc: "In Ashes, players take on the roles of a Phoenixborn, which are demi-gods and protectors of this world.", price:40,img:Item4},
+        {id:5,title:'Scythe', desc: "Scythe is set in an alternate-history 1920s period. It is a time of farming and war, broken hearts and rusted gears.", price:55,img: Item5},
+        {id:6,title:'Magic', desc: "In Magic the Gathering you defeat opponents and show off your skill with epic creatures and powerful enchantments.",price:30,img: Item6}
     ],
     addedItems:[],
     total: 0
@@ -97,14 +97,14 @@ const cartReducer= (state = initState,action)=>{
     if(action.type=== ADD_SHIPPING){
           return{
               ...state,
-              total: state.total + 6
+              total: state.total + 3
           }
     }
 
     if(action.type=== 'SUB_SHIPPING'){
         return{
             ...state,
-            total: state.total - 6
+            total: state.total - 3
         }
   }
     
