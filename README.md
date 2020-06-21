@@ -3,11 +3,10 @@
 This simple application prototype shows how React and Redux can be used to build a user experience with instant visual updates.
 
 ## Demo
-[Here](https://my-shopping-cart-leawwzhsmf.now.sh/)
+[Here](https://huber-c.github.io/onlineshop/)
 
 ## Features
 * Add and remove items 
-* Remove items
 * Edit the quantity of the items in real time
 * Calculate automatically the total including the shipping (if chosen)
 
