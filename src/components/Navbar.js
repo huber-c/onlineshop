@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
     return(
             <nav className="nav-wrapper">
                 <div className="container">
-                    <Link to="/" className="brand-logo">Shop Board Games</Link>
+                    <Link to="/" className="brand-logo">Board Games</Link>
                     
                     <ul className="right">
                         <li><Link to="/">Shop</Link></li>
