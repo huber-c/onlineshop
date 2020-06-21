@@ -1,6 +1,6 @@
-# Basic e-commerce cart application built with React & Redux
+# Simple e-commerce cart application built with Javascript & React components
 
-This simple application prototype shows how React and Redux can be used to build a user experience with instant visual updates.
+This application prototype shows how React and Redux can be used to build a user experience with instant visual updates.
 
 ## Demo
 [Here](https://huber-c.github.io/onlineshop/)
