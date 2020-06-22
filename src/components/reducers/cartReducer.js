@@ -9,12 +9,12 @@ import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '
 
 const initState = {
     items: [
-        {id:1,title:'Arkham Horror', desc: "Take on the role of an investigator trying ot rid the world of eldritch beings known as the Ancient Ones", price:42,img:Item1},
-        {id:2,title:'Netrunner', desc: "Netrunner is an out-of-print collectible card game (CCG) designed by Richard Garfield, the creator of Magic.", price:28,img: Item2},
-        {id:3,title:'Pandemic', desc: "Pandemic is based on the premise that four diseases have broken out, each threatening to wipe out a region.",price:25,img: Item3},
-        {id:4,title:'Ashes', desc: "In Ashes, players take on the roles of a Phoenixborn, which are demi-gods and protectors of this world.", price:40,img:Item4},
-        {id:5,title:'Scythe', desc: "Scythe is set in an alternate-history 1920s period. It is a time of farming and war, broken hearts and rusted gears.", price:55,img: Item5},
-        {id:6,title:'Magic', desc: "In Magic the Gathering you defeat opponents and show off your skill with epic creatures and powerful enchantments.",price:30,img: Item6}
+        {id:1,title:'Arkham Horror', desc: "Take on the role of an investigator trying to rid the world of eldritch beings known as the Ancient Ones.", price:42,img:Item1},
+        {id:2,title:'Netrunner', desc: "Netrunner is set in a set in a dystopian, cyberpunk future where megacorps control human interests.", price:28,img: Item2},
+        {id:3,title:'Pandemic', desc: "Four diseases have broken out, each threatening to wipe out a region, you need to try and find a solution.",price:25,img: Item3},
+        {id:4,title:'Ashes', desc: "In Ashes, players take on the roles of a Phoenixborn, which are demi-gods and the protectors of this world.", price:40,img:Item4},
+        {id:5,title:'Scythe', desc: "Scythe is set in an alternate-history 1920s period. It is a time of war, broken hearts and rusted gears.", price:55,img: Item5},
+        {id:6,title:'Magic', desc: "In Magic the Gathering you defeat opponents and show your skill with powerful creatures and spells.",price:30,img: Item6}
     ],
     addedItems:[],
     total: 0
