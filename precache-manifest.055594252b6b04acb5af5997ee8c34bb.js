@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f47266793846f1cb5b87",
+    "revision": "66e386349cae14c9db30",
     "url": "/onlineshop/static/css/main.34ab21a7.chunk.css"
   },
   {
-    "revision": "f47266793846f1cb5b87",
-    "url": "/onlineshop/static/js/main.f4726679.chunk.js"
+    "revision": "66e386349cae14c9db30",
+    "url": "/onlineshop/static/js/main.66e38634.chunk.js"
   },
   {
     "revision": "99d7c59f45359249397b",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/onlineshop/static/media/item6.f172565f.jpg"
   },
   {
-    "revision": "d50288dd50ecb78a2cdaec0855699f44",
+    "revision": "05779ac5e794e527e86ea61824433c1d",
     "url": "/onlineshop/index.html"
   }
 ];

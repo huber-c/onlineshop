@@ -1,7 +1,7 @@
 {
   "main.css": "/onlineshop/static/css/main.34ab21a7.chunk.css",
-  "main.js": "/onlineshop/static/js/main.f4726679.chunk.js",
-  "main.js.map": "/onlineshop/static/js/main.f4726679.chunk.js.map",
+  "main.js": "/onlineshop/static/js/main.66e38634.chunk.js",
+  "main.js.map": "/onlineshop/static/js/main.66e38634.chunk.js.map",
   "static/js/1.99d7c59f.chunk.js": "/onlineshop/static/js/1.99d7c59f.chunk.js",
   "static/js/1.99d7c59f.chunk.js.map": "/onlineshop/static/js/1.99d7c59f.chunk.js.map",
   "runtime~main.js": "/onlineshop/static/js/runtime~main.8931f26d.js",
@@ -14,6 +14,6 @@
   "static/media/item6.jpg": "/onlineshop/static/media/item6.f172565f.jpg",
   "static/css/main.34ab21a7.chunk.css.map": "/onlineshop/static/css/main.34ab21a7.chunk.css.map",
   "index.html": "/onlineshop/index.html",
-  "precache-manifest.ff7eba428ae526de6c404ad23728120a.js": "/onlineshop/precache-manifest.ff7eba428ae526de6c404ad23728120a.js",
+  "precache-manifest.055594252b6b04acb5af5997ee8c34bb.js": "/onlineshop/precache-manifest.055594252b6b04acb5af5997ee8c34bb.js",
   "service-worker.js": "/onlineshop/service-worker.js"
 }
